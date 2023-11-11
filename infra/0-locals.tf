@@ -1,5 +1,3 @@
-
-
 locals { 
     env     = "dev"
     key_name = "devops"
