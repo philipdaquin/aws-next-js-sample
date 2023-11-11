@@ -1,0 +1,24 @@
+version: "3.8"
+
+#
+#   UNTESTED 
+#
+services:
+  localstack:
+    container_name: localstack
+    image: localstack/localstack:latest
+    ports:
+      - "0.0.0.0:4566:4566"            # LocalStack Gateway
+      - "0.0.0.0:4510-4559:4510-4559"  # external services port range
+    environment:
+      - SERVICES=ec2, iam, sts, eks
+      - DEBUG=1
+      - DOCKER_HOST=unix:///var/run/docker.sock
+      - AWS_ACCESS_KEY_ID="test"
+      - AWS_SECRET_ACCESS_KEY="test"
+      - DEFAULT_REGION=us-east-2
+      - DATA_DIR=/tmp/localstack/data
+    volumes:
+      - './.localstack:/tmp/localstack'
+      - '/var/run/docker.sock:/var/run/docker.sock'
+    network_mode: bridge
