@@ -15,6 +15,9 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
+
+            <h1 className="font-bold text-xl">hellothere</h1>
+
             By{' '}
             <Image
               src="/vercel.svg"
