@@ -6,7 +6,6 @@
 ### To do 
 - Test AWS architecture using Localstack
 
-
 ### Design 
 - Figma 
 - Zeplin
@@ -27,13 +26,22 @@
 - Jest
 - Cypress
 - playwright
+- Localstack 
 
 ### Release 
 - Docker
 - Github
 
-### 
+### Infrastructure 
+- Terraform 
 
+### AWS infrastructure
+- ASG
+- ALB
+- IAM
+- ECR
+- ECS
+- EC2
 
 
 
