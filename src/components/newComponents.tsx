@@ -2,7 +2,9 @@ import React from 'react'
 
 function newComponents() {
   return (
-    <div>newComponents</div>
+    <div>
+
+    </div>
   )
 }
 

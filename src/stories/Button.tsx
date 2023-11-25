@@ -38,15 +38,14 @@ export const Button = ({
   return (
     <button
       type="button"
-      className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
+      className={['Rectangle-770'].join(' ')}
+      style={{ backgroundColor }}
       {...props}
     >
+      <span className="Add-Story">
       {label}
-      <style jsx>{`
-        button {
-          background-color: ${backgroundColor};
-        }
-      `}</style>
+      </span>
+    
     </button>
   );
 };

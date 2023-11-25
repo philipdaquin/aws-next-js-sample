@@ -1,0 +1,36 @@
+{
+    "plugins": [
+        {
+            "name": "@zeplin/cli-connect-react-plugin"
+        },
+        {
+            "name": "@zeplin/cli-connect-storybook-plugin",
+            "config": {
+                "url": "http://localhost:6006/",
+                "format": "new",
+                "failFastOnErrors": true,
+                "ignoreSSLErrors": true
+            }
+        }
+    ],
+    "projects": [
+        "64c3953347af370f14b82065"
+    ],
+    "components": [
+        {
+            "path": "src/stories/Button.tsx",
+            "zeplinIds": [
+                "65616b1264d81b7bd8bfe404"
+            ],
+            "storybook": {
+                "kind": "Design System/Add Story Button",
+                "stories": [
+                    "primary"
+                ]
+            }
+        }
+    ],
+    "github": {
+        "repository": "philipdaquin/aws-next-js-sample"
+    }
+}

@@ -1,4 +1,4 @@
-.storybook-button {
+/* .storybook-button {
   font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
   border: 0;
@@ -27,4 +27,32 @@
 .storybook-button--large {
   font-size: 16px;
   padding: 12px 24px;
+} */
+.Add-Story-Button {
+  width: 136px;
+  height: 71px;
+  padding: 9px 12px 15px;
+}
+
+.Rectangle-770 {
+  width: 112px;
+  height: 47px;
+  padding: 15px 21px 15px 22px;
+  border-radius: 25px;
+  background-color: #020202;
+}
+
+.Add-Story {
+  width: 69px;
+  height: 17px;
+  flex-grow: 0;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
 }
