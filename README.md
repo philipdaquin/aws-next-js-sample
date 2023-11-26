@@ -9,6 +9,7 @@
 ### Design 
 - Figma 
 - Zeplin
+- Storybook
 
 ### Frontend Stack 
 - Storybook
